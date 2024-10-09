@@ -1,0 +1,12 @@
+---
+all:
+  hosts:
+    my_localhost:
+      ansible_host: 127.0.0.1
+    my_server:
+      ansible_host: 5.0.5.1
+
+  children:
+    my_infrstructure:
+      my_localhost:
+      my_server:

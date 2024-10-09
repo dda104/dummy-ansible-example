@@ -1,0 +1,7 @@
+---
+- name: Example simple play
+  hosts: my_infrastructure
+  tasks:
+    - name: Using jinja2 templates
+      ansible.builtin.debug:
+        msg: "Hello World from {{ location }}"

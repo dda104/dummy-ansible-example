@@ -1,0 +1,8 @@
+roles:
+  - name: geerlingguy_ansible
+    scm: git
+    src: https://github.com/geerlingguy/ansible-role-ansible.git
+    version: 2.3.0
+
+collections:
+  - name: ansible.posix
